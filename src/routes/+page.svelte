@@ -21,9 +21,9 @@
     </div>
 
 
-    <CurveThing class="absolute -bottom-60 -left-60 -rotate-45 fill-zinc-900 dark:fill-zinc-400 size-[20rem] lg:size-[35rem] scale-[2]" />
-    <CurveThing class="absolute -bottom-80 -left-80 -rotate-45 fill-zinc-950 dark:fill-zinc-300 size-[20rem] lg:size-[35rem] scale-[2.2]" />
+    <CurveThing class="absolute -bottom-60 -left-60 -rotate-45 fill-zinc-900 size-[20rem] lg:size-[35rem] scale-[2] dark:stroke-white dark:stroke-2" />
+    <CurveThing class="absolute -bottom-80 -left-80 -rotate-45 fill-zinc-950 size-[20rem] lg:size-[35rem] scale-[2.2] dark:stroke-white dark:stroke-2" />
 
-    <CurveThing class="absolute -top-60 -right-60 rotate-[135deg] fill-zinc-900 dark:fill-zinc-400 size-[20rem] lg:size-[35rem] scale-[2]" />
-    <CurveThing class="absolute -top-80 -right-80 rotate-[135deg] fill-zinc-950 dark:fill-zinc-300 size-[20rem] lg:size-[35rem] scale-[2.2]" />
+    <CurveThing class="absolute -top-60 -right-60 rotate-[135deg] fill-zinc-900 size-[20rem] lg:size-[35rem] scale-[2] dark:stroke-white dark:stroke-2" />
+    <CurveThing class="absolute -top-80 -right-80 rotate-[135deg] fill-zinc-950 size-[20rem] lg:size-[35rem] scale-[2.2] dark:stroke-white dark:stroke-2" />
 </div>
