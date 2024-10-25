@@ -14,7 +14,7 @@
             <p class="text-lg">Open source domotic system</p>
         </div>
         
-        <Button class="hover:scale-110 ease-in-out transition-transform	duration-300">
+        <Button class="hover:scale-110 ease-in-out transition-transform	duration-300" href="https://github.com/Automathaus">
             Get Started
             <ArrowRight class="ml-2 h-5 w-5"/>
         </Button>

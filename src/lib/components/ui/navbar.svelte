@@ -30,15 +30,15 @@
             <House class="mr-2 h-4 w-4"/>
             Home
         </Button>
-        <Button variant="outline" class="hidden md:flex">
+        <!-- <Button variant="outline" class="hidden md:flex">
             <BookText class="mr-2 h-4 w-4"/>
             Docs
         </Button>
         <Button variant="outline" class="hidden md:flex">
             <Newspaper class="mr-2 h-4 w-4"/>
             News
-        </Button>
-        <Button class="hidden md:flex">
+        </Button> -->
+        <Button class="hidden md:flex" href="https://github.com/Automathaus">
             <Github class="mr-2 h-4 w-4"/>
             Github
         </Button>
