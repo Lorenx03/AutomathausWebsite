@@ -7,6 +7,8 @@
     import { BookText } from "lucide-svelte";
     import { House } from "lucide-svelte";
 
+    import Sun from "lucide-svelte/icons/sun";
+
     //Components
     import DarkmodeButton from "./darkmodeButton.svelte";
     import LogoAutomat from "../svg/logoAutomat.svelte";
@@ -31,7 +33,7 @@
     </div>
 
     
-    <div class="md:flex items-center space-x-3">
+    <div class="md:flex items-center gap-3">
         <Button variant="outline" class="hidden md:flex">
             <House class="mr-2 h-4 w-4"/>
             Home
