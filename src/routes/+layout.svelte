@@ -1,10 +1,17 @@
 <script lang="ts">
-    import Navbar from "$lib/components/ui/navbar.svelte";
-    import '@fontsource/poppins';
-    import "../app.css";
-    import { ModeWatcher } from "mode-watcher";
+	//Styles
+	import '@fontsource/poppins';
+	import '../app.css';
+
+	//Components 
+    import { ModeWatcher } from 'mode-watcher';
+    import Navbar from '$lib/components/ui/navbar.svelte';
+
+	//Props
+	let { children } = $props();
 </script>
 
-<ModeWatcher/>
-<Navbar/>
-<slot/>
+<ModeWatcher />
+<Navbar />
+
+{@render children()}

@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1701.34 1691.36" class={$$props.class}>
+<script>
+    let { class: classStyle = 'lights are gonna find me' } = $props();
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1701.34 1691.36" class={classStyle}>
     <defs>
         <style>
             .cls-1{

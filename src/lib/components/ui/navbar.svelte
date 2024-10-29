@@ -1,18 +1,24 @@
 <script lang="ts">
+    //Icons
     import { Menu } from 'lucide-svelte';
     import { SunMoon } from 'lucide-svelte';
+    import { Github } from "lucide-svelte";
+    import { Newspaper } from "lucide-svelte";
+    import { BookText } from "lucide-svelte";
+    import { House } from "lucide-svelte";
 
-    import Github from "lucide-svelte/icons/github";
-    import Newspaper from "lucide-svelte/icons/newspaper";
-    import BookText from "lucide-svelte/icons/book-text";
-    import House from "lucide-svelte/icons/house";
-
+    //Components
     import DarkmodeButton from "./darkmodeButton.svelte";
     import LogoAutomat from "../svg/logoAutomat.svelte";
 
+    //Dropdown menu
     import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
-    import { Button } from "$lib/components/ui/button/index.js";
 
+    //Button
+    import { Button } from "$lib/components/ui/button/index.js";
+    import { buttonVariants } from "$lib/components/ui/button/index.js";
+
+    //Mode watcher
     import { toggleMode } from "mode-watcher";
 </script>
 
@@ -30,14 +36,14 @@
             <House class="mr-2 h-4 w-4"/>
             Home
         </Button>
-        <!-- <Button variant="outline" class="hidden md:flex">
+        <Button variant="outline" class="hidden md:flex">
             <BookText class="mr-2 h-4 w-4"/>
             Docs
         </Button>
         <Button variant="outline" class="hidden md:flex">
             <Newspaper class="mr-2 h-4 w-4"/>
             News
-        </Button> -->
+        </Button>
         <Button class="hidden md:flex" href="https://github.com/Automathaus">
             <Github class="mr-2 h-4 w-4"/>
             Github
@@ -46,11 +52,9 @@
         <DarkmodeButton class="hidden md:flex" />
 
         <DropdownMenu.Root>
-            <DropdownMenu.Trigger asChild let:builder>
-                <Button builders={[builder]} variant="ghost" size="icon" class="md:hidden">
-                    <Menu class="size-7" />
-                    <span class="sr-only">Toggle theme</span>
-                </Button>
+            <DropdownMenu.Trigger class={buttonVariants({ variant: "ghost", size: "icon" }) + ' md:hidden'}>
+                <Menu class="size-7" />
+                <span class="sr-only">Dropdown menu</span>
             </DropdownMenu.Trigger>
             <DropdownMenu.Content align="end">
                 <DropdownMenu.Item >
@@ -75,7 +79,7 @@
 
                 <DropdownMenu.Separator />
 
-                <DropdownMenu.Item on:click={toggleMode}>
+                <DropdownMenu.Item onclick={toggleMode}>
                     <SunMoon class="mr-2 h-4 w-4"/>
                     <span>Toggle theme</span>
                 </DropdownMenu.Item>

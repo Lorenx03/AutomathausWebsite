@@ -1,4 +1,8 @@
-<svg width="100%" height="100%" viewBox="0 0 1833 1422" version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" class="{$$props.class}">
+<script>
+    let { class: classStyle = 'lights are gonna find me' } = $props();
+</script>
+
+<svg width="100%" height="100%" viewBox="0 0 1833 1422" version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" class="{classStyle}">
     <g transform="matrix(1,0,0,1,-1348,-5303)">
         <g id="CurvyThing" transform="matrix(1,0,0,1,-0.876584,-0.573564)">
             <g transform="matrix(1.73866,0,0,1,-5934.2,167.453)">
