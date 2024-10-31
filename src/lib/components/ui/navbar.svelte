@@ -41,10 +41,10 @@
                 <BookText class="mr-1 size-4"/>
                 Docs
             </Button>
-            <Button variant="outline" class="hidden md:inline-flex" href="/news">
+            <!-- <Button variant="outline" class="hidden md:inline-flex" href="/news">
                 <Newspaper class="mr-1 size-4"/>
                 News
-            </Button>
+            </Button> -->
             <Button class="hidden md:inline-flex" href="https://github.com/Automathaus">
                 <Github class="mr-1 size-4"/>
                 Github
@@ -64,18 +64,22 @@
                     </DropdownMenu.Item> -->
                     
                     <DropdownMenu.Item >
-                        <BookText class="mr-2 size-4"/>
-                        <span>Docs</span>
+                        <a href="/docs">
+                            <BookText class="mr-2 size-4"/>
+                            <span>Docs</span>
+                        </a>
                     </DropdownMenu.Item>
         
-                    <DropdownMenu.Item >
+                    <!-- <DropdownMenu.Item >
                         <Newspaper class="mr-2 size-4"/>
                         <span>News</span>
-                    </DropdownMenu.Item>
+                    </DropdownMenu.Item> -->
         
                     <DropdownMenu.Item >
-                        <Github class="mr-2 size-4"/>
-                        <span>Github</span>
+                        <a href="https://github.com/Automathaus">
+                            <Github class="mr-2 size-4"/>
+                            <span>Github</span>
+                        </a>
                     </DropdownMenu.Item>
 
                     <DropdownMenu.Separator />
