@@ -29,7 +29,7 @@
 				</Breadcrumb.Root>
 			</Card.Header>
 
-			<Card.Content class="prose p-14">
+			<Card.Content class="prose prose-zinc dark:prose-invert p-14">
 				<Content />
 			</Card.Content>
 
