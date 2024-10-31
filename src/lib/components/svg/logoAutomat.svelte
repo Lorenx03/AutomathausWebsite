@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     let { class: classStyle = 'lights are gonna find me' } = $props();
 </script>
 

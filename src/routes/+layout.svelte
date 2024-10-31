@@ -6,6 +6,7 @@
 	//Components 
     import { ModeWatcher } from 'mode-watcher';
     import Navbar from '$lib/components/ui/navbar.svelte';
+    import CurveThingsScreen from '$lib/components/svg/CurveThingsScreen.svelte';
 
 	//Props
 	let { children } = $props();
@@ -13,5 +14,6 @@
 
 <ModeWatcher />
 <Navbar />
+<CurveThingsScreen />
 
 {@render children()}

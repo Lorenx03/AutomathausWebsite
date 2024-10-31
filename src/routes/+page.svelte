@@ -1,8 +1,7 @@
-<script>
+<script lang="ts">
     import { ArrowRight } from "lucide-svelte";
     import AnimAutomatLogo from "$lib/components/svg/animAutomatLogo.svelte";
     import Button from "$lib/components/ui/button/button.svelte";
-    import CurveThingsScreen from "$lib/components/svg/CurveThingsScreen.svelte";
 </script>
 
 <div class="w-full min-h-svh flex items-center justify-center">
@@ -22,6 +21,4 @@
             </Button>
         </div>
     </div>
-
-    <CurveThingsScreen />
 </div>

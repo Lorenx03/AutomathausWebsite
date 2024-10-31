@@ -34,24 +34,24 @@
 
     
     <div class="md:flex items-center gap-3">
-        <Button variant="outline" class="hidden md:flex">
+        <!-- <Button variant="outline" class="hidden md:flex">
             <House class="mr-2 h-4 w-4"/>
             Home
-        </Button>
-        <Button variant="outline" class="hidden md:flex">
-            <BookText class="mr-2 h-4 w-4"/>
+        </Button> -->
+        <Button variant="outline" class="hidden md:inline-flex">
+            <BookText class="mr-1 size-4"/>
             Docs
         </Button>
-        <Button variant="outline" class="hidden md:flex">
-            <Newspaper class="mr-2 h-4 w-4"/>
+        <Button variant="outline" class="hidden md:inline-flex">
+            <Newspaper class="mr-1 size-4"/>
             News
         </Button>
-        <Button class="hidden md:flex" href="https://github.com/Automathaus">
-            <Github class="mr-2 h-4 w-4"/>
+        <Button class="hidden md:inline-flex" href="https://github.com/Automathaus">
+            <Github class="mr-1 size-4"/>
             Github
         </Button>
 
-        <DarkmodeButton class="hidden md:flex" />
+        <DarkmodeButton class="hidden md:inline-flex"/>
 
         <DropdownMenu.Root>
             <DropdownMenu.Trigger class={buttonVariants({ variant: "ghost", size: "icon" }) + ' md:hidden'}>
@@ -59,30 +59,30 @@
                 <span class="sr-only">Dropdown menu</span>
             </DropdownMenu.Trigger>
             <DropdownMenu.Content align="end">
-                <DropdownMenu.Item >
+                <!-- <DropdownMenu.Item >
                     <House class="mr-2 h-4 w-4"/>
                     <span>Home</span>
-                </DropdownMenu.Item>
+                </DropdownMenu.Item> -->
                 
                 <DropdownMenu.Item >
-                    <BookText class="mr-2 h-4 w-4"/>
+                    <BookText class="mr-2 size-4"/>
                     <span>Docs</span>
                 </DropdownMenu.Item>
     
                 <DropdownMenu.Item >
-                    <Newspaper class="mr-2 h-4 w-4"/>
+                    <Newspaper class="mr-2 size-4"/>
                     <span>News</span>
                 </DropdownMenu.Item>
     
                 <DropdownMenu.Item >
-                    <Github class="mr-2 h-4 w-4"/>
+                    <Github class="mr-2 size-4"/>
                     <span>Github</span>
                 </DropdownMenu.Item>
 
                 <DropdownMenu.Separator />
 
                 <DropdownMenu.Item onclick={toggleMode}>
-                    <SunMoon class="mr-2 h-4 w-4"/>
+                    <SunMoon class="mr-2 size-4"/>
                     <span>Toggle theme</span>
                 </DropdownMenu.Item>
             </DropdownMenu.Content>

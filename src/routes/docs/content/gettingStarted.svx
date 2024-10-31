@@ -1,0 +1,6 @@
+---
+title: Getting Started
+---
+
+# Getting Started
+Automathaus is a platform for creating IoT enabled projects.
