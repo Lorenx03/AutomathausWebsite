@@ -4,6 +4,10 @@
     import Button from "$lib/components/ui/button/button.svelte";
 </script>
 
+<svelte:head>
+    <title>Automathaus | Open source domotic system</title>
+</svelte:head>
+
 <div class="w-full min-h-svh flex items-center justify-center">
     <div class="flex flex-col items-center justify-center lg:space-y-6">
         <div class="scale-75 lg:scale-100">

@@ -11,6 +11,10 @@
     let Content = data.content;
 </script>
 
+<svelte:head>
+    <title>Automathaus | {data.metadata.title}</title>
+</svelte:head>
+
 <Sidebar.Provider style="--sidebar-width: 19rem;">
 	<AppSidebar />
 	<Sidebar.Inset class="bg-transparent pt-20">
