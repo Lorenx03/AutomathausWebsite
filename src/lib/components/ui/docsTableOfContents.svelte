@@ -7,16 +7,16 @@
 		navMain: [
 			{
 				title: "Getting Started",
-				url: "#",
+				url: "/docs/getting-started",
 				items: [
 					{
 						title: "Installation",
-						url: "#",
+						url: "/docs/getting-started",
 						isActive: true,
 					},
 					{
 						title: "Project Structure",
-						url: "#",
+						url: "/docs/getting-started",
 					},
 				],
 			},
