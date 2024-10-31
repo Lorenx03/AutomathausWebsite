@@ -63,24 +63,24 @@
                         <span>Home</span>
                     </DropdownMenu.Item> -->
                     
-                    <DropdownMenu.Item >
-                        <a href="/docs">
+                    <a href="/docs" class="flex items-center gap-2">
+                    <DropdownMenu.Item>
                             <BookText class="mr-2 size-4"/>
                             <span>Docs</span>
-                        </a>
-                    </DropdownMenu.Item>
+                        </DropdownMenu.Item>
+                    </a>
         
                     <!-- <DropdownMenu.Item >
                         <Newspaper class="mr-2 size-4"/>
                         <span>News</span>
                     </DropdownMenu.Item> -->
         
-                    <DropdownMenu.Item >
-                        <a href="https://github.com/Automathaus">
+                    <a href="https://github.com/Automathaus">
+                        <DropdownMenu.Item>
                             <Github class="mr-2 size-4"/>
                             <span>Github</span>
-                        </a>
-                    </DropdownMenu.Item>
+                        </DropdownMenu.Item>
+                    </a>
 
                     <DropdownMenu.Separator />
 

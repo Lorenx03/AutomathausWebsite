@@ -18,7 +18,7 @@
 <Sidebar.Provider style="--sidebar-width: 19rem;">
 	<AppSidebar />
 	<Sidebar.Inset class="bg-transparent pt-20">
-		<Card.Root class="min-h-[calc(100vh-5.5rem)] flex flex-col">
+		<Card.Root class="min-h-[calc(100vh-5.5rem)] max-w-[calc(100vw-1rem)] mx-2 md:mx-0 flex flex-col">
 			<Card.Header class="flex flex-row justify-between items-center gap-2">
 				<Breadcrumb.Root>
 					<Breadcrumb.List>
@@ -33,7 +33,7 @@
 				</Breadcrumb.Root>
 			</Card.Header>
 
-			<Card.Content class="prose prose-zinc dark:prose-invert p-14">
+			<Card.Content class="prose prose-zinc dark:prose-invert prose-pre:w-[calc(100vw-4rem)] md:prose-pre:w-full prose-pre:max-w-none p-7 md:p-14 max-w-full">
 				<Content />
 			</Card.Content>
 

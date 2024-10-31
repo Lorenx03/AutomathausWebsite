@@ -6,6 +6,8 @@ export const load: PageLoad = async ({ params }) => {
         // Dynamically import the markdown file from the content directory
         const post = await import(`../content/${params.slug}.svx`);
 
+        console.log(post);
+
         return {
             content: post.default,
             metadata: post.metadata,
